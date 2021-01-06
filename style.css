@@ -1,0 +1,150 @@
+body {
+        margin: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(253, 253, 253);
+        width: 100%;
+}
+ul {
+        list-style-type: none;
+        margin-right: 100px;
+        padding-bottom: 100px;
+}
+li {
+        display: inline;
+        float: right;
+        padding: 8px;
+}
+h1 {
+        font-size: 50px;
+}
+h2 {
+        font-size: 40px;
+}
+p {
+        color: dimgrey;
+        text-align: justify;
+        margin-bottom: 50px;
+}
+.tomato-highlight {
+        color: tomato;
+}
+.navy-highlight {
+        color: rgba(0, 0, 99, 0.993);
+}
+.half-width {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+}
+.half-width img {
+        width: 100%;
+}
+section {
+        height: 500px;
+        padding-bottom: 100px;
+}
+.link-button {
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightSalmon, rgb(187, 33, 5));
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+}
+.one-third-width {
+        width: 27%;
+        float: left;
+        margin-left: 2.2%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+}
+.one-third-width img {
+        width: 100%;
+}
+.single-experience {
+        box-shadow: 10px 10px 20px gray;
+        border-radius: 10px;
+        height: 80%;
+        background-color: white;
+}
+.working-project {
+        text-align: center;
+        background-color: rgb(230, 237, 240);
+        padding-top: 10px;
+        margin-left: 0px;
+        height: 500px;
+}
+.working-project img {
+        height: 32%;
+        width: 90%;
+}
+#full-stack {
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, lightSalmon, red);
+        border-image-slice: 1;
+}
+#front-end {
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, rgb(1, 1, 105), rgb(3, 235, 235));
+        border-image-slice: 1;
+}
+#front-end2 {
+        border-left: 7px solid;
+        border-image: linear-gradient(
+                180deg,
+                rgb(123, 204, 123),
+                rgb(0, 65, 0)
+        );
+        border-image-slice: 1;
+}
+
+.work-inquiry {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+}
+.link-button2 {
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightSalmon, rgb(187, 33, 5));
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+        size: 10px;
+        flex: right;
+}
+.chat {
+        position: relative;
+        width: 100%;
+}
+
+.chat .work-inquiry {
+        width: 100%;
+        margin-top: 70px;
+}
+
+.chat .work-inquiry2 {
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        color: white;
+        font-size: 60px;
+}
+
+.chat .btn {
+        position: absolute;
+        top: 28%;
+        left: 80%;
+        background-color: tomato;
+        color: white;
+        font-size: 20px;
+        padding: 20px 30px;
+        text-align: center;
+}
+
+footer p {
+        text-align: center;
+        font-size: 30px;
+}
